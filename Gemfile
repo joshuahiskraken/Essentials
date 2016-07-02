@@ -17,7 +17,7 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'will_paginate', '~> 3.1'
 gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
 
-
+gem 'coffee-script-source', '1.8.0'
 
 
 
@@ -30,10 +30,13 @@ group :development do
     gem 'web-console', '~> 2.0'
     gem 'spring'
     gem 'sqlite3'
+
 end
 
 group :production do
     gem 'rails_12factor', '~> 0.0.3'
     gem 'pg', '~> 0.18.4'
+    gem 'tzinfo-data', platforms: [:mingw, :mswin]
+    gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end
 
